@@ -1,0 +1,6 @@
+strategy,train_size,train_fraud_pct,val_PR_AUC,val_ROC_AUC,val_precision@bestF1thr,val_recall@bestF1thr,val_F1@bestF1thr
+None (baseline),170235,0.1668,0.6617,0.8746,0.8256,0.7553,0.7889
+Class-weighted,170235,0.1668,0.7743,0.9562,0.9048,0.8085,0.8539
+Random oversampling,339902,50.0,0.8814,0.9694,0.9318,0.8723,0.9011
+Random undersampling,568,50.0,0.7424,0.9805,0.6792,0.766,0.72
+SMOTE,339902,50.0,0.8131,0.9696,0.9412,0.8511,0.8939
